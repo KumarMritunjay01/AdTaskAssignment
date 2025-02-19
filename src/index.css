@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+    width: 1440px;
+    height: 6000px;
+    background-color: #050506;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* Optional: ensures text is visible on dark background */
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling if left shift is applied */
+}
+
+html,body {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    max-width: 100vw;
+}
